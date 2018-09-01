@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1535833695 "/home/jonathan/melissa-resume/resume.tex" "resume.pdf" "resume" 1535833695
+["pdflatex"] 1535836778 "/home/jonathan/melissa-resume/resume.tex" "resume.pdf" "resume" 1535836778
   "/etc/texmf/web2c/texmf.cnf" 1528915122 1101 af7716885e081ab43982cab7b4672c1a ""
-  "/home/jonathan/melissa-resume/resume.tex" 1535833695 9664 d3fd9f9953d9acd00156084e922acc18 ""
+  "/home/jonathan/melissa-resume/resume.tex" 1535836778 10075 cb264a9fbd07e09e83e9a00ca5dab2ca ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc" 1438381205 1789 55a6e298c390afb1918a331a7860bf5e ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1438381205 2741 e94953ad19dccd677c83d6bd15befd91 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -98,11 +98,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1503343927 31343 93828589fb0cea665e553ee5a17ad2d4 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1528915148 1863403 f3ff9a4253bcb5fb9a9baaf0c572cb01 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1528915192 3853906 092acc14cbfd803f110f4fdef854d20a ""
-  "resume.aux" 1535833695 662 b2b94621371df8d9296b8bf5bec1b851 ""
-  "resume.out" 1535833695 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "resume.tex" 1535833695 9664 d3fd9f9953d9acd00156084e922acc18 ""
+  "resume.aux" 1535836778 662 b2b94621371df8d9296b8bf5bec1b851 ""
+  "resume.out" 1535836778 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "resume.tex" 1535836778 10075 cb264a9fbd07e09e83e9a00ca5dab2ca ""
   (generated)
+  "resume.log"
+  "resume.out"
   "resume.pdf"
   "resume.aux"
-  "resume.out"
-  "resume.log"
