@@ -1,0 +1,313 @@
+\documentclass[a4paper]{article}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{scrextend}
+\usepackage{graphicx,calc}
+\usepackage{fontawesome}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[
+    bookmarks, colorlinks, breaklinks, unicode,
+    pdftitle={Melissa Ross - Resume},
+    pdfauthor={Melissa Ross},
+    pdfproducer={}
+]{hyperref}
+
+\textheight=10in
+\pagestyle{empty}
+\raggedright
+\hypersetup{linkcolor=blue,citecolor=blue,filecolor=black,urlcolor=MidnightBlue}
+\def\bull{\vrule height 0.8ex width .7ex depth -.1ex }
+\pagestyle{plain}
+
+% DEFINITIONS FOR RESUME %%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\area} [2] {
+    \vspace*{-9pt}
+    \begin{verse}
+        \textbf{#1}   #2
+    \end{verse}
+}
+
+\newcommand{\lineunder} {
+    \vspace*{-8pt} \\
+    \hspace*{-18pt} \hrulefill \\
+}
+
+\newcommand{\header} [1] {
+    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    \vspace*{-6pt} \lineunder
+    \vspace{2mm}
+}
+
+\newcommand{\employer} [3] {
+    { \textbf{#1} (#2)\\ \underline{\textbf{\emph{#3}}}\\  }
+}
+
+\newcommand{\contact} [3] {
+    \vspace*{-10pt}
+    \begin{center}
+        {\Huge \scshape {#1}}\\
+        #2 \\ #3
+    \end{center}
+    \vspace*{-8pt}
+}
+
+\newenvironment{achievements}{
+    \begin{list}
+        {$\bullet$}{\topsep 0pt \itemsep -2pt}}{\vspace*{4pt}
+    \end{list}
+}
+
+\newcommand{\schoolwithcourses} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+    \vspace*{5pt}
+}
+
+\newcommand{\school} [4] {
+    \textbf{#1} #2 $\bullet$ #3\\
+    #4 \\
+}
+% END RESUME DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+\vspace*{-50pt}
+
+    
+
+%==== Profile ====%
+
+\begin{minipage}[t]{0.5\textwidth}
+    \vspace{-24pt}
+    {\Huge\scshape{Melissa Ross}}\\
+    Boston, MA
+\end{minipage}
+\begin{minipage}[t]{0.48\textwidth}
+    \flushright 
+    \begin{tabular}[h]{ll@{}}
+        \faEnvelope & \href{mailto:amazastic@gmail.com}{amazastic@gmail.com}\\
+        \faPhone    & 315-521-0638\\
+        \faLinkedin & \href{http://www.linkedin.com/in/melissa-elizabeth-ross/}{linkedin.com/in/melissa-elizabeth-ross}
+    \end{tabular}
+\end{minipage}
+
+
+\vspace{8mm}
+
+\setlength{\parindent}{4ex}
+Creative, friendly, detail oriented, and well organized team player with experience in event 
+planning, teaching, hospitality, and administrative operations. Actively involved in the Boston 
+startup community. Naturally warm and welcoming with a strong artistic and design side.
+
+\setlength{\parindent}{0ex}
+\vspace{4mm}
+
+%==== Technical Skills ====%
+\header{\faGear \hspace{1pt} Technical Skills}
+\begin{tabular}[h]{@{}ll}
+Office Software: &       Google Docs/Sheets/Slides, Powerpoint, Word, Excel \\[4pt]
+Design Tools: &          Photoshop, Illustrator \\[4pt]
+Language: &             Conversational Spanish
+\end{tabular}
+
+\vspace{4mm}
+
+%==== Experience ====%
+\header{\faBriefcase \hspace{1pt} Experience}
+\vspace{1mm}
+
+\textbf{\textsc{Linnaean Community School}} \hfill Cambridge, MA\\
+\vspace{2mm}
+
+\begin{addmargin}[1em]{0em}
+    \textit{Teacher} \hfill August 2014 - Present\\
+    \vspace{-1mm}
+    \begin{itemize} \itemsep 1pt
+        \item Designed and taught after school classes for elementary, middle, and high 
+            school students. Classes ranged from comic book design, reading comprehension,
+            to illustration.
+        \item Ran study hall, a program to help children who have fallen behind in their
+            school work. Actively worked with the children on their homework in whatever
+            subject they were behind in.
+        \item Co-led the after school activities club, overseeing over 40 children and leading
+            them through different interactive activities.
+        \item Performed tuition bookkeeping and followed up with parents on
+            missing payments.
+        \item In charge of keeping parents informed of administrative updates, events,
+            and workshops through regular notices and letters.
+        \item Planned and organized after school field trips. Booked venues, aquired 
+            necessary permits and wavers, organized transportation, and chaperoned the
+            children during the trip.
+        
+        
+    \end{itemize}
+    \textit{Inclusion Specialist} \hfill August 2015 - May 2017\\
+    \vspace{-1mm}
+    \begin{itemize} \itemsep 1pt
+        \item Worked one-on-one with children with special needs, trauma, and behavioral
+            issues, who are on individual education plans (IEP). Made sure children stayed
+            focused, on-task, and integrated into the classroom experience.
+        \item Provided parents daily updates and feedback on their child's behavior and
+            progress.
+
+    \end{itemize}
+\end{addmargin}
+
+%==== Zynga =====%
+\textbf{\textsc{Camp Seafaring}} \hfill Cambridge, MA\\
+\vspace{2mm}
+
+\begin{addmargin}[1em]{0em}
+
+\textit{Counselor} \hfill Summers 2014 - Present\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+    \item Ogranized and led art activities and games.
+    \item Organized, booked, and chaperoned camp field trips and outings.
+    \item Performed camp and school tuition bookkeeping.
+\end{itemize}
+\end{addmargin}
+
+%==== Disney =====%
+\textbf{\textsc{Rosie’s Bakery}} \hfill Cambridge, MA\\
+\vspace{2mm}
+
+\begin{addmargin}[1em]{0em}
+
+\textit{Supervisor} \hfill June 2011 - June 2014\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+    \item Oversaw staff and enforced policies and proceedures for food safety, 
+        point of sale, and hospitality.
+    \item Managed deliveries, inventory, and ordering.
+    \item Performed cashier balancing at the end of every day and sent the resulting
+        report to corporate.  
+    \item Responsible for resolving customer complaints.
+    \item Trained new staff.
+\end{itemize}
+
+\end{addmargin}
+
+%==== Xplana =====%
+\textbf{\textsc{Democratic National Committee}} \hfill Boston, MA\\
+\vspace{2mm}
+
+\begin{addmargin}[1em]{0em}
+
+\textit{Neighborhood Outreach Field Manager} \hfill May 2008 - October 2008\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+    \item Led door-to-door canvasing missions and developed canvasing strategy based on
+        the team and neighborhood.
+    \item Trained new outreach staff.
+    \item Ran office workshops on how to keep engagement with possible
+        donors.
+    \item Maintained and kept track of canvasing data including engagement and donation
+        numbers per neighborhood.
+\end{itemize}
+
+\end{addmargin}
+
+%==== Lab =====%
+\textbf{\textsc{Finger Lakes Arts Grants and Services}} \hfill Geneva, NY\\
+\vspace{2mm}
+
+\begin{addmargin}[1em]{0em}
+
+\textit{Intern} \hfill 2006 - 2007\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+    \item Wrote articles for “Expressions” E-Newsletter, a publication meant to keep the
+        Finger Lakes community connected to local artists and art-related events.
+    \item Researched various art-related topics and interviewed local artists for 
+        newsletter articles.
+    \item Researched local artists and colated reports to grant-giving institutions for
+        their consideration.
+    \item Maintained website's art events calendar. 
+\end{itemize}
+
+\end{addmargin}
+
+
+\header{\faHeart \hspace{1pt} Volunteering}
+
+\textbf{\textsc{Artisans Asylum}} \hfill Somerville, MA\\
+\begin{addmargin}[1em]{0em}
+\vspace{2mm}
+\textit{Volunteer} \hfill April 2018 - August 2018\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+    \item Worked the desk, greeting and singing in visitors. Answered phone,
+    greeted visitors, gave tours, registered new members, signed in students, 
+    handled mail and packages, and answered emails.
+\end{itemize}
+\end{addmargin}
+
+\textbf{\textsc{San Miguel Orphanage}} \hfill Lima, Peru\\
+\begin{addmargin}[1em]{0em}
+\vspace{2mm}
+\textit{Volunteer} \hfill June of 2007\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+    \item Helped children with homework.
+    \item Organized and led creative group activities.
+    \item Assisted young adults with special needs.
+    \item Led children on outings to parks.
+    \item Organized local fund and used fund money to buy needed blankets, shoes and
+        other essentials.
+\end{itemize}
+\end{addmargin}
+
+\textbf{\textsc{Newton Wellesley Hospital ER}} \hfill Newton, MA\\
+\begin{addmargin}[1em]{0em}
+\vspace{2mm}
+\textit{Volunteer} \hfill Fall of 2007\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+    \item Prepared rooms for patients with necessary supplies.
+    \item Oversaw waiting room and guided new arrivals.
+    \item Reassured and comforted patients. When needed, interpreting patient’s requests
+        from Spanish to English.
+\end{itemize}
+\end{addmargin}
+
+\textbf{\textsc{Escuela Popular de Arte}} \hfill Santiago de los Caballeros, Dominican Republic\\
+\begin{addmargin}[1em]{0em}
+\vspace{2mm}
+\textit{Volunteer} \hfill March 2006 - August 2006\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+    \item Instructed and supervised students in art classes.
+    \item Coordinated and directed student performance for local community. 
+\end{itemize}
+\end{addmargin}
+
+\textbf{\textsc{MSPCA}} \hfill Boston, MA\\
+\begin{addmargin}[1em]{0em}
+\vspace{2mm}
+\textit{Volunteer} \hfill March 2006 - August 2006\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+    \item Worked as admin in the referral office.
+    \item Updated out-of-date profile information for donations.
+\end{itemize}
+\end{addmargin}
+\vspace*{4mm}
+
+
+%==== Education ====%
+\header{\faGraduationCap \hspace{1pt} Education}
+\textbf{Hobart and William Smith}\hfill Geneva, NY\\
+Bachelors of Arts \\
+Majors: Spanish and Hispanic Studies, Media and Society\\
+Minor: Studio Art\\
+Honors: Deans List, President’s Public Service Award
+\vspace{4mm}
+
+\end{document}
